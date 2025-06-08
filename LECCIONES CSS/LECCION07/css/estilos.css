@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Sofia&effect=shadow-multiple&display=swap');
 
 h1 {
     color: #ef476f;
@@ -38,11 +38,13 @@ h1 {
 }
 
 .fuente_roboto {
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-variant: small-caps;
     font-size: 20px;
+    font: font-style font-variant font-weight font-size font-family ;*/
+    font: italic small-caps bold 20px Roboto, sans-serif;
 }
 
 .fuente_georgia {
