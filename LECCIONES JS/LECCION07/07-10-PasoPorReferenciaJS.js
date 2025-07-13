@@ -23,3 +23,5 @@ function cambiarValorObjeto(p1){
 //Paso por referencia
 cambiarValorObjeto( persona );
 console.log( persona );
+
+console.log(typeof(persona))
